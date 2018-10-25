@@ -1,0 +1,10 @@
+ dpkg-buildpackage -rfakeroot -us -uc -ui
+dpkg-buildpackage: info: source package samples
+dpkg-buildpackage: info: source version 1.0-1
+dpkg-buildpackage: info: source distribution UNRELEASED
+dpkg-buildpackage: info: source changed by Pranav Kulshrestha <pranav1698@pranav1698-Lenovo-ideapad-510-15IKB>
+ dpkg-source --before-build samples
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+debian/rules:3: *** missing separator (did you mean TAB instead of 8 spaces?).  Stop.
+dpkg-buildpackage: error: fakeroot debian/rules clean subprocess returned exit status 2

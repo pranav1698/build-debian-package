@@ -1,0 +1,22 @@
+##TITLE=Virtual Sample
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##$FOV=( 3 )
+1.0e-6 1.0e-6 1.0e-6
+##$FrequencyRange=10.0
+##$FrequencyOffset=0.0
+##$RelaxationT1=0.0
+##$RelaxationT2=0.0
+##$T1map=( 1, 1, 1, 1, 1 )
+1300.0
+##$T2map=( 1, 1, 1, 1, 1 )
+80.0
+##$ppmMap=( 0 )
+
+##$spinDensity=( 1, 1, 1, 1, 1 )
+1.0
+##$B1map=( 0 )
+
+##$DcoeffMap=( 1, 1, 1, 1, 1 )
+0.0
+##END=
